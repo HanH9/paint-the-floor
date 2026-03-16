@@ -57,12 +57,16 @@ docker run -p80:80 -p8765:8765 -v $PWD:/source -it klavins/enviro:v1.6 bash
 
 ```powershell
 docker run -p 80:80 -p 8765:8765 -v ${PWD}:/source -it klavins/enviro:v1.6 bash
+
+OR
+
+docker run -p 80:80 -p 8765:8765 -v "${PWD}:/source" -it klavins/enviro:v1.6 bash
 ```
 
 After entering the container:
 
 ```bash
-cd Paint_the_Floor
+cd /source/Paint_the_Floor
 ```
 
 If you want to rebuild from scratch:
@@ -147,7 +151,7 @@ Additional guidance came from:
 No external game engine was used beyond the provided Enviro framework.
 
 ## Demo
-[paint the floor Demo](demo.mp4)
+[paint the floor Demo](images/demo.mp4)
 
 ## Possible future improvements include:
 
