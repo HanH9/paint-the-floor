@@ -146,8 +146,7 @@ Additional guidance came from:
 No external game engine was used beyond the provided Enviro framework.
 
 ## Demo
-[![Demo](images/pic.png)](images/demo.mp4)
-
+<video src="images/demo.mp4" controls></video>
 ## Future Work
 
 Possible future improvements include:
