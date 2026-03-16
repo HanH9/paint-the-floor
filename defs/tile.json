@@ -1,0 +1,19 @@
+{
+    "name": "Tile",
+    "type": "dynamic",
+    "description": "Floor tile used to build the game board.",
+    "shape": [
+      { "x": -18, "y": 18 },
+      { "x": 18, "y": 18 },
+      { "x": 18, "y": -18 },
+      { "x": -18, "y": -18 }
+    ],
+    "friction": {
+      "collision": 1,
+      "linear": 100,
+      "rotational": 100
+    },
+    "sensors": [],
+    "mass": 50,
+    "controller": "lib/tile.so"
+  }

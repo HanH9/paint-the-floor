@@ -1,0 +1,19 @@
+{
+  "name": "Hazard",
+  "type": "dynamic",
+  "description": "Random hazard for Paint the Floor.",
+  "shape": [
+    { "x": 0, "y": 12 },
+    { "x": 12, "y": 0 },
+    { "x": 0, "y": -12 },
+    { "x": -12, "y": 0 }
+  ],
+  "friction": {
+    "collision": 2,
+    "linear": 30,
+    "rotational": 300
+  },
+  "sensors": [],
+  "mass": 1,
+  "controller": "lib/hazard.so"
+}

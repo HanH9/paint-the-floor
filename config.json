@@ -1,0 +1,219 @@
+{
+  "name": "Paint the Floor",
+  "ip": "0.0.0.0",
+  "port": 8765,
+
+  "buttons": [
+    {
+      "name": "restart",
+      "label": "Restart",
+      "style": {
+        "background": "white",
+        "border-color": "black"
+      }
+    }
+  ],
+
+  "agents": [
+    {
+      "definition": "defs/game_manager.json",
+      "style": {
+        "fill": "none",
+        "stroke": "none"
+      },
+      "position": {
+        "x": 0,
+        "y": 0,
+        "theta": 0
+      }
+    },
+    {
+      "definition": "defs/blue_bot.json",
+      "style": {
+        "fill": "none",
+        "stroke": "none"
+      },
+      "position": {
+        "x": -260,
+        "y": 0,
+        "theta": 0
+      }
+    },
+    {
+      "definition": "defs/red_bot.json",
+      "style": {
+        "fill": "#E74C3C",
+        "stroke": "black"
+      },
+      "position": {
+        "x": 260,
+        "y": 0,
+        "theta": 180
+      }
+    },
+
+    {
+      "definition": "defs/hazard.json",
+      "style": {
+        "fill": "#F4D03F",
+        "stroke": "black"
+      },
+      "position": {
+        "x": -260,
+        "y": -120,
+        "theta": 0
+      }
+    },
+    {
+      "definition": "defs/hazard.json",
+      "style": {
+        "fill": "#F4D03F",
+        "stroke": "black"
+      },
+      "position": {
+        "x": -180,
+        "y": 120,
+        "theta": 0
+      }
+    },
+    {
+      "definition": "defs/hazard.json",
+      "style": {
+        "fill": "#F4D03F",
+        "stroke": "black"
+      },
+      "position": {
+        "x": -100,
+        "y": -120,
+        "theta": 0
+      }
+    },
+    {
+      "definition": "defs/hazard.json",
+      "style": {
+        "fill": "#F4D03F",
+        "stroke": "black"
+      },
+      "position": {
+        "x": -20,
+        "y": 120,
+        "theta": 0
+      }
+    },
+    {
+      "definition": "defs/hazard.json",
+      "style": {
+        "fill": "#F4D03F",
+        "stroke": "black"
+      },
+      "position": {
+        "x": 60,
+        "y": -120,
+        "theta": 0
+      }
+    },
+    {
+      "definition": "defs/hazard.json",
+      "style": {
+        "fill": "#F4D03F",
+        "stroke": "black"
+      },
+      "position": {
+        "x": 140,
+        "y": 120,
+        "theta": 0
+      }
+    },
+    {
+      "definition": "defs/hazard.json",
+      "style": {
+        "fill": "#F4D03F",
+        "stroke": "black"
+      },
+      "position": {
+        "x": 220,
+        "y": -120,
+        "theta": 0
+      }
+    },
+    {
+      "definition": "defs/hazard.json",
+      "style": {
+        "fill": "#F4D03F",
+        "stroke": "black"
+      },
+      "position": {
+        "x": 260,
+        "y": 120,
+        "theta": 0
+      }
+    }
+  ],
+
+  "statics": [
+    {
+      "style": { "fill": "#666666", "stroke": "none" },
+      "shape": [
+        { "x": -350, "y": -200 },
+        { "x": -350, "y": 200 },
+        { "x": -340, "y": 200 },
+        { "x": -340, "y": -200 }
+      ]
+    },
+    {
+      "style": { "fill": "#666666", "stroke": "none" },
+      "shape": [
+        { "x": 350, "y": -200 },
+        { "x": 350, "y": 200 },
+        { "x": 340, "y": 200 },
+        { "x": 340, "y": -200 }
+      ]
+    },
+    {
+      "style": { "fill": "#666666", "stroke": "none" },
+      "shape": [
+        { "x": -350, "y": 200 },
+        { "x": 350, "y": 200 },
+        { "x": 350, "y": 190 },
+        { "x": -350, "y": 190 }
+      ]
+    },
+    {
+      "style": { "fill": "#666666", "stroke": "none" },
+      "shape": [
+        { "x": -350, "y": -200 },
+        { "x": 350, "y": -200 },
+        { "x": 350, "y": -190 },
+        { "x": -350, "y": -190 }
+      ]
+    },
+
+    {
+      "style": { "fill": "#7F8C8D", "stroke": "none" },
+      "shape": [
+        { "x": -200, "y": 20 },
+        { "x": -200, "y": 100 },
+        { "x": -120, "y": 100 },
+        { "x": -120, "y": 20 }
+      ]
+    },
+    {
+      "style": { "fill": "#7F8C8D", "stroke": "none" },
+      "shape": [
+        { "x": -40, "y": -100 },
+        { "x": -40, "y": -20 },
+        { "x": 40, "y": -20 },
+        { "x": 40, "y": -100 }
+      ]
+    },
+    {
+      "style": { "fill": "#7F8C8D", "stroke": "none" },
+      "shape": [
+        { "x": 120, "y": 20 },
+        { "x": 120, "y": 100 },
+        { "x": 200, "y": 100 },
+        { "x": 200, "y": 20 }
+      ]
+    }
+  ]
+}

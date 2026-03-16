@@ -1,0 +1,19 @@
+{
+  "name": "GameManager",
+  "type": "dynamic",
+  "description": "Controls the board, score, timer, and round state.",
+  "shape": [
+    { "x": -0.01, "y": 0.01 },
+    { "x": 0.01, "y": 0.01 },
+    { "x": 0.01, "y": -0.01 },
+    { "x": -0.01, "y": -0.01 }
+  ],
+  "friction": {
+    "collision": 0,
+    "linear": 1000,
+    "rotational": 1000
+  },
+  "sensors": [],
+  "mass": 1000000,
+  "controller": "lib/game_manager.so"
+}
