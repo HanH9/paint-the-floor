@@ -1,3 +1,4 @@
+![Game Screenshot](images/pic.png)
 # Paint the Floor
 
 ## Overview
@@ -143,6 +144,9 @@ Additional guidance came from:
 - standard C++ and Enviro usage patterns discussed during the course
 
 No external game engine was used beyond the provided Enviro framework.
+
+## Demo
+[![Demo](images/pic.png)](images/demo.mp4)
 
 ## Future Work
 
