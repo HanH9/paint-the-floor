@@ -1,5 +1,6 @@
-![Game Screenshot](images/pic.png)
 # Paint the Floor
+
+![Game Screenshot](images/pic.png)
 
 ## Overview
 
@@ -146,8 +147,7 @@ Additional guidance came from:
 No external game engine was used beyond the provided Enviro framework.
 
 ## Demo
-<video src="https://drive.google.com/file/d/15sdGCrgVEseqMvEoRdQePrU3SsFYLASv/view?usp=drive_link" controls></video>
-## Future Work
+[paint the floor Demo](demo.mp4)
 
 Possible future improvements include:
 
