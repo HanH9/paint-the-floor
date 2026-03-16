@@ -149,7 +149,7 @@ No external game engine was used beyond the provided Enviro framework.
 ## Demo
 [paint the floor Demo](demo.mp4)
 
-Possible future improvements include:
+## Possible future improvements include:
 
 - stronger Red bot strategy beyond reactive avoidance
 - smarter territory targeting
